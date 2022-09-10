@@ -18,7 +18,7 @@ func main() {
 	flag.Parse()
 
 	if v {
-		fmt.Printf("convini-cli %s`\n", getVersion())
+		fmt.Printf("convini-cli %s\n", getVersion())
 	}
 }
 
